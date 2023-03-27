@@ -168,6 +168,26 @@ li {
 
 
 
+/* sezione operazioni dropbox business  */
+.operation-business {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.operation-business-row {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.operation-business-col {
+    width: calc(100% / 3);
+}
+
+
+
+
+
 /* regole DEBUG */
 body {
     background-color: aqua;}
@@ -253,5 +273,25 @@ header nav ul li {
 
 .find-partner-text {
     background-color: brown;
+    border: 2px solid black;
+}
+
+.operation-business {
+    background-color:rgb(80, 30, 30);
+    height: 600px;
+}
+
+.operation-business h3 {
+    width: 100%;
+    height: 50px;
+}
+
+.operation-business-row {
+    height: 90%;
+}
+
+.operation-business-col {
+    height: 50%;
+    background-color: blueviolet;
     border: 2px solid black;
 }
