@@ -248,6 +248,28 @@ li {
 
 
 
+/* sezione domande frequenti */
+.faq {
+    width: 100%;
+    height: 380px;
+    display: flex;
+    align-items: center;
+}
+
+.faq-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.faq-text-symbol {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+
+
+
 /* regole DEBUG */
 body {
     background-color: aqua;}
@@ -373,9 +395,20 @@ header nav ul li {
 
 .try-it {
     background-color: blueviolet;
+    border: 2px solid black;
 } 
 
 .try-it-container {
+    background-color: brown;
+    height: 80px;
+}
+
+.faq {
+    background-color: blueviolet;
+    border: 2px solid black;
+} 
+
+.faq-container {
     background-color: brown;
     height: 80px;
 }
