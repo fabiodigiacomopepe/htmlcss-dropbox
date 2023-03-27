@@ -26,6 +26,7 @@ header {
 header nav {
     display: flex;
     justify-content: space-between;
+    max-width: 100%;
     height: 100%;
     align-items: center;
 }
@@ -198,6 +199,32 @@ li {
 
 
 
+/* sezione società */
+.square-society {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.square-society-col {
+   height: 350px;
+   max-width: calc(100% / 3);
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   flex-grow: 1;
+}
+
+.square-society-items {
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+}
+
+.square-society-items-central {
+    overflow: auto;
+    max-height: 100%;
+}
+
+
 /* regole DEBUG */
 body {
     background-color: aqua;}
@@ -309,4 +336,14 @@ header nav ul li {
 .user-active {
     background-color: rgb(211, 11, 11);
     height: 250px;
+}
+
+.square-society-col {
+    background-color: blue;
+    border: 2PX solid black;
+}
+
+.square-society-items {
+    background-color: yellow;
+    border: 2px solid black;
 }
