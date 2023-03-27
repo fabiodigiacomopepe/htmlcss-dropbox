@@ -147,6 +147,27 @@ li {
 
 
 
+/* regole sezione trova partner */
+.find-partner {
+    display: flex;
+    justify-content: flex-start;
+    height: 350px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.find-partner-image {
+    width: 60%;
+}
+
+.find-partner-text {
+    width: 40%;
+}
+
+
+
+
+
 /* regole DEBUG */
 body {
     background-color: aqua;}
@@ -223,4 +244,14 @@ header nav ul li {
 
 .price-col .account-type-description, .price-col-reverse .account-type-description {
     background-color: rgb(37, 37, 176);
+}
+
+.find-partner-image {
+    background-color: brown;
+    border: 2px solid black;
+}
+
+.find-partner-text {
+    background-color: brown;
+    border: 2px solid black;
 }
