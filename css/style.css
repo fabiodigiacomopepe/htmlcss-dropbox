@@ -188,6 +188,16 @@ li {
 
 
 
+/* sezione numero team che usano dropbox */
+.user-active {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+
+
 /* regole DEBUG */
 body {
     background-color: aqua;}
@@ -294,4 +304,9 @@ header nav ul li {
     height: 50%;
     background-color: blueviolet;
     border: 2px solid black;
+}
+
+.user-active {
+    background-color: rgb(211, 11, 11);
+    height: 250px;
 }
