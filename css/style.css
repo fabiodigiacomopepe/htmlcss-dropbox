@@ -65,7 +65,7 @@ header nav ul li a {
 /* regole jumbotron */
 .jumbotron {
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-color: #b4d0e7;
 }
 
@@ -78,12 +78,16 @@ header nav ul li a {
 
 .jumbo-container h1 {
     width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    height: 140px;
 }
 
 .jumbo-row {
     display: flex;
     width: 100%;
-    height: calc(100% - 110px); /* 110px di h1 (dato solo a debug) */
+    height: calc(100% - 170px); /* 140px di h1 (+ 30 margine) */
 }
 
 .jumbo-col {
@@ -91,21 +95,40 @@ header nav ul li a {
     position: relative;
 }
 
+.text {
+    font-size: 10.5px;
+}
+
+.text p {
+    margin-bottom: 30px;
+}
+
+.text .button-blue {
+    margin-bottom: 30px;
+}
+
 .jumbo-row div.text {
-    width: 40%;
+    width: 30%;
 }
 
 .jumbo-arrow {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     left: 0;
 }
 
-.jumbo-row div.image {
-    width: 60%;
+.jumbo-arrow a i {
+    font-size: 30px;
+    color: black;
 }
 
+.jumbo-row div.image {
+    width: 70%;
+}
 
+.jumbo-col img {
+    max-width: 600px;
+}
 
 
 
@@ -310,7 +333,7 @@ header nav ul li {
     border: 2px solid black;
 } */
 
-.jumbo-container {
+/* .jumbo-container {
     background-color: brown;
 }
 
@@ -327,7 +350,7 @@ header nav ul li {
 .jumbo-row div.image {
     background-color: rgb(22, 150, 116);
     border: 2px solid black;
-}
+} */
 
 .price-plan-container {
     background-color: rgb(180, 205, 18);
