@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
 }
 
 li {
@@ -140,7 +141,7 @@ header nav ul li a {
 .price-plan-container {
     width: 60%;
     height: 1000px;
-    padding: 50px 0;
+    padding: 80px 0;
     margin: 0 auto;
 }
 
@@ -168,6 +169,16 @@ header nav ul li a {
     height: 100%;
     display: flex;
     flex-direction: column;
+    border: 1.5px solid #d7d7da;
+    font-size: 10px;
+}
+
+.price-row .price-col .account-type {
+    border-bottom: 1.5px solid #d7d7da;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
 }
 
 .price-col-reverse {
@@ -185,6 +196,59 @@ header nav ul li a {
     width: 100%;
 }
 
+.account-type-description {
+    padding: 30px 20px;
+}
+
+.account-type-description h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.account-type-description .price-month {
+    margin-bottom: 25px;
+}
+
+.account-type-description .price-month span {
+    font-weight: bold;
+}
+
+.account-type-description ul{
+    margin-bottom: 30px;
+}
+
+.account-type-description ul .li-row {
+    display: flex;
+    gap: 3px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.account-type-description .button-blue {
+    margin-bottom: 20px;
+}
+
+.account-type-description h5 {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.or {
+    display: inline-block;
+    border-bottom: 1px solid #e4e4e6;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.purchase-now {
+    text-decoration: underline;
+    color: #4747f2;
+    display: inline-block
+}
+
+.li-row .fa-check {
+    color: #1473ff;
+}
 
 
 
@@ -312,8 +376,8 @@ header nav ul li a {
 
 
 /* regole DEBUG */
-body {
-    background-color: aqua;}
+/* body {
+    background-color: aqua;} */
 
 /* header {
     background-color: brown;
@@ -352,11 +416,11 @@ header nav ul li {
     border: 2px solid black;
 } */
 
-.price-plan-container {
+/* .price-plan-container {
     background-color: rgb(180, 205, 18);
-}
+} */
 
-.price-plan-container h3 {
+/* .price-plan-container h3 {
     width: 100%;
     height: 30px;
     background-color: aqua;
@@ -371,9 +435,9 @@ header nav ul li {
     background-color: brown;
     width: 50px;
     height: 20px;
-}
+} */
 
-.price-row .price-col {
+/* .price-row .price-col {
     background-color: brown;
 }
 
@@ -387,7 +451,7 @@ header nav ul li {
 
 .price-col .account-type-description, .price-col-reverse .account-type-description {
     background-color: rgb(37, 37, 176);
-}
+} */
 
 .find-partner-image {
     background-color: brown;
