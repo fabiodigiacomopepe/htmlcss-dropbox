@@ -370,9 +370,12 @@ header nav ul li a img {
 }
 
 .operation-business-col {
-    width: calc(100% / 3);
-    padding: 0 14px;
+    width: calc(100% / 3 - 12px); /* 12px x 3 = 36px */
     margin-bottom: 20px;
+}
+
+.operation-business-row .central-col {
+    margin: 0 18px; /* 18px a dx, 18px a sx = 36px */
 }
 
 .operation-business-col h4 {
