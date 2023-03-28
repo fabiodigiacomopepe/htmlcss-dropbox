@@ -468,6 +468,11 @@ header nav ul li a img {
     padding: 30px;
 }
 
+.square-society-items-central .author {
+    font-size: 12px;
+    padding: 0px 30px;
+}
+
 .border-under-logo {
     margin: 0 30px;
     width: 70px;
