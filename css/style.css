@@ -161,6 +161,24 @@ header nav ul li a {
     justify-content: flex-start;
     gap: 10px;
     margin-bottom: 30px;
+    font-size: 10px;
+}
+
+.fatturazione {
+    display: flex;
+    gap: 2px;
+}
+
+.radiobox {
+    color: rgba(0, 0, 0, 0);
+    border: 2px solid #d6d6d9;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+}
+
+.check {
+    border: 4px solid #0061ff;
 }
 
 .price-row {
