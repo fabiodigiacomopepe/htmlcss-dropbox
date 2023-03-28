@@ -65,6 +65,10 @@ header nav ul li a {
     font-size: 13px;
 }
 
+header nav ul li a img {
+    width: 90px;
+}
+
 
 
 
@@ -452,7 +456,7 @@ header nav ul li a {
 }
 
 .square-society-items-central img {
-    width: 50%;
+    width: 200px;
     padding: 30px;
 }
 
@@ -540,6 +544,8 @@ header nav ul li a {
 
 .try-it-container .button-white a {
     border: none;
+    font-size: 12px;
+    padding: 7px 20px;
 }
 
 
@@ -559,10 +565,26 @@ header nav ul li a {
     margin: 0 auto;
 }
 
+.faq-container h3 {
+    font-size: 27px;
+    border-bottom: 1px solid black;
+    padding-bottom: 40px;
+}
+
 .faq-text-symbol {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid black;
+    padding: 20px 0;
+}
+
+.faq-text-symbol h4 {
+    font-size: 12px;
+}
+
+.faq-text-symbol i {
+    font-size: 12px;
+    margin-right: 25px;
 }
 
 
@@ -701,7 +723,7 @@ header nav ul li {
     height: 80px;
 } */
 
-.faq {
+/* .faq {
     background-color: blueviolet;
     border: 2px solid black;
 } 
@@ -709,4 +731,4 @@ header nav ul li {
 .faq-container {
     background-color: brown;
     height: 80px;
-}
+} */
