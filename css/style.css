@@ -515,7 +515,7 @@ header nav ul li a img {
 .square-selector {
     width: 180px;
     height: 180px;
-    border: 10px solid #c1e5be;
+    border: 10px solid rgba(255, 255, 255, 0.5);
     position: absolute;
     top: 0;
     left: 0;
