@@ -576,14 +576,13 @@ header nav ul li a img {
 
 .faq-container h3 {
     font-size: 27px;
-    border-bottom: 1px solid black;
     padding-bottom: 40px;
 }
 
 .faq-text-symbol {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    border-top: 1px solid black;
     padding: 20px 0;
 }
 
@@ -596,6 +595,15 @@ header nav ul li a img {
     margin-right: 25px;
 }
 
+.faq-hover {
+    display: none;
+    font-size: 10px;
+    margin: 0px 40px 10px 10px;
+}
+
+.faq-text-symbol:hover + .faq-hover {
+    display: block;
+}
 
 
 
