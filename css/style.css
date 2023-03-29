@@ -666,6 +666,8 @@ header nav ul li a img {
 
 .faq-text-symbol:hover {
     cursor: pointer;
+    position: relative;
+    padding-left: 10px;
     background-color: rgba(0, 0, 0, 0.05);
     border-radius: 2px;
 }
