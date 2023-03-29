@@ -584,6 +584,12 @@ header nav ul li a img {
     justify-content: space-between;
     border-top: 1px solid black;
     padding: 20px 0;
+    transition: all 0.2s ease-in;
+}
+
+#last-faq-text-symbol {
+    border-top: 1px solid black;
+    padding: 20px 0;
 }
 
 .faq-text-symbol h4 {
@@ -598,11 +604,17 @@ header nav ul li a img {
 .faq-hover {
     display: none;
     font-size: 10px;
-    margin: 0px 40px 10px 10px;
+    margin: 5px 40px 10px 10px;
 }
 
 .faq-text-symbol:hover + .faq-hover {
     display: block;
+}
+
+.faq-text-symbol:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 2px;
 }
 
 
